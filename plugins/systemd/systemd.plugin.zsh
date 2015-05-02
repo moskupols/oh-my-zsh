@@ -1,6 +1,8 @@
 user_commands=(
   list-units is-active status show help list-unit-files
-  is-enabled list-jobs show-environment)
+  is-enabled list-jobs show-environment
+  hybrid-sleep
+)
 
 sudo_commands=(
   start stop reload restart try-restart isolate kill
