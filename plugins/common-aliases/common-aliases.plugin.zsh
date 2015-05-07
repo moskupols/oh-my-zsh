@@ -29,7 +29,7 @@ alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
 
-alias op='xdg-open >/dev/null &>/dev/null'
+alias op='exo-open >/dev/null &>/dev/null'
 alias pmru='lp -d future'
 
 # Command line head / tail shortcuts
