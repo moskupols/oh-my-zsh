@@ -1,6 +1,6 @@
 
-TEMPLATES_DIR=~/Dropbox/coding/templates
-    
+TEMPLATES_DIR=~/repos/contests/templates
+
 # TODO: make these smarter: looking in the templates dir
 # TODO: make templates smarter: specify their structure in files, don't hardcode in Makefile
 
