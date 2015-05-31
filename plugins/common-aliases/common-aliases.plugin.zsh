@@ -75,10 +75,10 @@ alias vlc='vlc 2>&1 >/dev/null'
 # depends on the SUFFIX :)
 if [ ${ZSH_VERSION//\./} -ge 420 ]; then
   # open browser on urls
-  _browser_fts=(htm html de org net com at cx nl se dk dk php)
+  _browser_fts=(htm html org net com ru at cx nl se dk dk php)
   for ft in $_browser_fts ; do alias -s $ft=$BROWSER ; done
 
-  _editor_fts=(cpp cxx cc c hh h inl asc txt TXT tex)
+  _editor_fts=(cpp cxx cc c hh h inl asc txt TXT tex py)
   for ft in $_editor_fts ; do alias -s $ft=$EDITOR ; done
 
   _image_fts=(jpg jpeg png gif mng tiff tif xpm)
