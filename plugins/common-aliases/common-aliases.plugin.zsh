@@ -14,9 +14,10 @@ alias lS='ls -1FSsh'
 alias lart='ls -1Fcart'
 alias lrt='ls -1Fcrt'
 
-alias zshrc='vim ~/.zshrc' # Quick access to the ~/.zshrc file
-alias vimrc='vim ~/.vimrc'
-alias awerc='vim ~/.config/awesome/rc.lua'
+hash -d dotf='/home/moskupols/repos/dotfiles'
+alias zshrc='vim ~dotf/.zshrc' # Quick access to the ~/.zshrc file
+alias vimrc='vim ~dotf/.vimrc'
+alias awerc='vim ~dotf/awesome/rc.lua'
 
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
