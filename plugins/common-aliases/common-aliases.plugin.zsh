@@ -78,7 +78,7 @@ if is-at-least 4.2.0; then
   _browser_fts=(htm html org net com ru at cx nl se dk dk php)
   for ft in $_browser_fts ; do alias -s $ft=$BROWSER ; done
 
-  _editor_fts=(cpp cxx cc c hh h inl asc txt TXT tex py)
+  _editor_fts=(cpp cxx cc c hh h inl asc txt TXT tex)
   for ft in $_editor_fts ; do alias -s $ft=$EDITOR ; done
 
   if [[ -n "$XIVIEWER" ]]; then
