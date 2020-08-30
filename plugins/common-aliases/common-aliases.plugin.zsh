@@ -14,9 +14,9 @@ alias lS='ls -1FSsh'
 alias lart='ls -1Fcart'
 alias lrt='ls -1Fcrt'
 
-alias zshrc='$EDITOR ~/.zshrc' # Quick access to the ~/.zshrc file
 alias vimrc='$EDITOR ~/.vimrc'
 alias awerc='$EDITOR ~/.config/awesome/rc.lua'
+alias zshrc='${=EDITOR} ${ZDOTDIR:-$HOME}/.zshrc' # Quick access to the .zshrc file
 
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
@@ -73,6 +73,7 @@ alias vlc='vlc 2>&1 >/dev/null'
 
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
+autoload -Uz is-at-least
 if is-at-least 4.2.0; then
   # open browser on urls
   _browser_fts=(htm html org net com ru at cx nl se dk dk php)
